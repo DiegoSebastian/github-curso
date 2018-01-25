@@ -12,9 +12,23 @@
 			max-width: 100%;
 			vertical-align: top;
 		}
+
+		#mobile {
+			display: none;
+		}
+
+		@media screen and (max-width: 768px) {
+			#mobile {
+				display: block;
+			}
+			.no-rd {
+				display: none;
+			}
+		}
 	</style>
 </head>
 <body>
+	<img src="images/invie-responsive.png" id="mobile">
 	<div class="no-rd">
 		<img src="images/header.jpg" alt="">
 		<img src="images/hero.jpg" alt="">
